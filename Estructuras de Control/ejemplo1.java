@@ -1,13 +1,12 @@
 public class ejemplo1 {
-    public static void main(String[] args) {
-        int numero = 10;
+    public static void main(){
+        //Declaración de variables
+        int a=1,b=2;
 
-        if (numero > 0) {
-            System.out.println("El número es positivo.");
-        } else if (numero < 0) {
-            System.out.println("El número es negativo.");
-        } else {
-            System.out.println("El número es cero.");
+        //IF y ELSE
+        if(a<b){
+            System.out.println("Es mayor "+a);
         }
+        
     }
 }
